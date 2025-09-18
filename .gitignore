@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *.so
+*.pyc
 
 # Virtual environment
 .env
@@ -19,8 +20,53 @@ venv/
 .vscode/
 .idea/
 .DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+.env/
+.venv/
+*.egg-info/# Python cache/compiled
+__pycache__/
+*.py[cod]
+*.so
+*.pyc
+
+# Virtual environment
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
 # Build
 build/
 dist/
 *.egg-info/
+
+# Ignore raw and others folders inside data
+data/**/raw/
+data/**/others/
+
+# Ignore large/intermediate data files
+*.csv
+*.zip
+*.tar
+*.gz
+*.pkl
+*.h5
+*.pt
+*.joblib
+
