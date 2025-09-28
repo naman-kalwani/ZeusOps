@@ -69,4 +69,4 @@ data/**/others/
 *.h5
 *.pt
 *.joblib
-
+*.keras
