@@ -164,7 +164,3 @@ if __name__ == "__main__":
   print("Total Safety Net overrides:", total_overrides)
   print("Total anomalies detected (after Safety Net):", total_anomalies)
   
-  
-  
-
-
