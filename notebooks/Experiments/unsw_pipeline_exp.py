@@ -164,3 +164,39 @@ if __name__ == "__main__":
   print("Total Safety Net overrides:", total_overrides)
   print("Total anomalies detected (after Safety Net):", total_anomalies)
   
+'''
+=== Batch 203/206: Samples 404000-405999 ===
+Safety Net overrides in this batch: 2
+Sample 404017: ⚠️ IF triggered anomaly override (score=0.763)
+Sample 404782: ⚠️ IF triggered anomaly override (score=0.799)
+
+--- Batch Evaluation ---
+Accuracy (final): 0.9795
+F1-score (macro): 0.5862363906908576
+
+=== Batch 204/206: Samples 406000-407999 ===
+Safety Net overrides in this batch: 1
+Sample 406334: ⚠️ IF triggered anomaly override (score=0.753)
+
+--- Batch Evaluation ---
+Accuracy (final): 0.977
+F1-score (macro): 0.47607224685847754
+
+=== Batch 205/206: Samples 408000-409999 ===
+Safety Net overrides in this batch: 0
+
+--- Batch Evaluation ---
+Accuracy (final): 0.981
+F1-score (macro): 0.5461837164945623
+
+=== Batch 206/206: Samples 410000-411882 ===
+Safety Net overrides in this batch: 0
+
+--- Batch Evaluation ---
+Accuracy (final): 0.9766330323951142
+F1-score (macro): 0.45904765483843396
+
+=== Cumulative Summary Across All Batches ===
+Total samples: 411883
+Total Safety Net overrides: 85
+'''
