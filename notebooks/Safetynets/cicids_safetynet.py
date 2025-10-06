@@ -1,5 +1,13 @@
 # # pipeline_cicids.py
 
+import os
+import warnings
+
+# === Silence TensorFlow & sklearn logs ===
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
+warnings.filterwarnings("ignore")
+
 import numpy as np
 import joblib
 from pathlib import Path
