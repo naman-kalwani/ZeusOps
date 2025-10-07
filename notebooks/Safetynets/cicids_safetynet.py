@@ -1,5 +1,4 @@
 # # pipeline_cicids.py
-
 import os
 import warnings
 
@@ -30,7 +29,7 @@ OVERRIDE_GAP = 0.10
 CONFIDENCE_THRESHOLD = 0.8
 w_IF = 0.5
 w_DAE = 0.5
-NORMAL_CLASS = 0  # Benign (CICIDS)
+NORMAL_CLASS = 4  # Benign (CICIDS)
 
 # Helpers -------------------------------------------------------------------
 def _get_model_input_dim(model):
